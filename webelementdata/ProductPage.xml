@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="产品页面"><!-- 产品页面 -->
+	    <locator name="需求链接" type="css" value="input#account" timeout="10">demandLink</locator>
+	    <locator name="添加产品" type="css" value="input[name='password']" timeout="3">addProductLink</locator>
+	    <locator name="产品名称输入框" type="css" value="button#submit" timeout="5">productNameInputbox</locator>
+	    <locator name="产品代号输入框" type="css" value="div#langs>button.btn" timeout="5">producNumbleInputbox</locator>
+	    <locator name="产品负责人下拉框" type="css" value="div#langs>ul li:nth-child(3)" timeout="5">productLeaderselect</locator>
+	    <locator name="测试负责人下拉框" type="css" value="div#langs>ul li:nth-child(2)" timeout="5">textLeaderSelect</locator>	    
+	    <locator name="发布负责人下拉框" type="css" value="i.icon-mobile" timeout="5">releaseLeaderSelect</locator>
+        <locator name="产品类型下拉框" type="css" value="type#keepLoginon" timeout="5">productTypeSelect</locator>
+        <locator name="产品描述输入框" type="css" value="a[href='/zentao/user-reset.html']" timeout="5">productDescriptionInputbox</locator>
+        <locator name="保存按钮" type="css" value="" timeout="" >savaButton</locator>
+</page>

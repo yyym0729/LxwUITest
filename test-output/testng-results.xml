@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】GroupFive.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="825" started-at="2017-03-24T12:57:07Z" finished-at="2017-03-24T12:57:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="825" started-at="2017-03-24T12:57:07Z" finished-at="2017-03-24T12:57:08Z">
+      <class name="GroupFive.testcases.LoginTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:GroupFive.testcases.LoginTest@1efef64]" name="setUp" is-config="true" duration-ms="0" started-at="2017-03-24T20:57:07Z" finished-at="2017-03-24T20:57:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[测试初始化报错]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 测试初始化报错
+	at org.testng.Assert.fail(Assert.java:94)
+	at GroupFive.testcases.LoginTest.setUp(LoginTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】GroupFive.uiframework.DriverFactory: 杀死chrome浏览器进程成功</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginTest01()[pri:0, instance:GroupFive.testcases.LoginTest@1efef64]" name="loginTest01" duration-ms="3" started-at="2017-03-24T20:57:08Z" finished-at="2017-03-24T20:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest01 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:GroupFive.testcases.LoginTest@1efef64]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-03-24T20:57:08Z" finished-at="2017-03-24T20:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GroupFive.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
